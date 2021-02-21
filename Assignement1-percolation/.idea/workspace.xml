@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="ProjectId" id="1ocylVzkn4Ra1UAmJQMYL0a86nI" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+  </component>
+  <component name="RunManager" selected="Application.Barnsley">
+    <configuration name="Barnsley" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Barnsley" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
+      <module name="Algorithms, Part I" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="classpath" value="/" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="RandomWord" />
+      <module name="Algorithms, Part I" />
+      <option name="PROGRAM_PARAMETERS" value="alpha beta gamma" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Barnsley" />
+      <item itemvalue="Application.Hello" />
+      <item itemvalue="Application.RandomWord" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Barnsley" />
+        <item itemvalue="Application.RandomWord" />
+        <item itemvalue="Application.Hello" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613602699001">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613602699001" />
+    <state x="548" y="122" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1613600550462">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="548" y="122" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613600550462" />
+    <state x="527" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1613602392592">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="527" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613602392592" />
+    <state x="637" y="167" key="EnvironmentVariablesDialog" timestamp="1613602690353">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="637" y="167" key="EnvironmentVariablesDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613602690353" />
+    <state x="501" y="159" key="FileChooserDialogImpl" timestamp="1613604253163">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="501" y="159" key="FileChooserDialogImpl/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604253163" />
+    <state width="1537" height="230" key="GridCell.Tab.0.bottom" timestamp="1613604707902">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="230" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
+    <state width="1537" height="230" key="GridCell.Tab.0.center" timestamp="1613604707902">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="230" key="GridCell.Tab.0.center/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
+    <state width="1537" height="230" key="GridCell.Tab.0.left" timestamp="1613604707902">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="230" key="GridCell.Tab.0.left/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
+    <state width="1537" height="230" key="GridCell.Tab.0.right" timestamp="1613604707902">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="230" key="GridCell.Tab.0.right/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
+    <state x="277" y="0" key="SettingsEditor" timestamp="1613604661370">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604661370" />
+  </component>
+</project>
