@@ -26,7 +26,7 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
-  <component name="ProjectId" id="1ocylVzkn4Ra1UAmJQMYL0a86nI" />
+  <component name="ProjectId" id="1owO3VkQ80OzXqjyOSq8UnD4oqg" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -37,52 +37,40 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
-  <component name="RunManager" selected="Application.Barnsley">
-    <configuration name="Barnsley" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Barnsley" />
+  <component name="RunManager" selected="Application.MyQuickUnion">
+    <configuration name="MyQuickUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyQuickUnion" />
       <module name="Algorithms, Part I" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
+    <configuration name="QuickFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickFind" />
       <module name="Algorithms, Part I" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <method v="2" />
     </configuration>
-    <configuration name="RandomWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <envs>
-        <env name="classpath" value="/" />
-      </envs>
-      <option name="MAIN_CLASS_NAME" value="RandomWord" />
+    <configuration name="QuickUnion" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion" />
       <module name="Algorithms, Part I" />
-      <option name="PROGRAM_PARAMETERS" value="alpha beta gamma" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PROGRAM_PARAMETERS" value="&lt;&lt; tinyUF.txt" />
+      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Application.Barnsley" />
-      <item itemvalue="Application.Hello" />
-      <item itemvalue="Application.RandomWord" />
-    </list>
+    <configuration name="WeightedQuickUnionPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WeightedQuickUnionPath" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Barnsley" />
-        <item itemvalue="Application.RandomWord" />
-        <item itemvalue="Application.Hello" />
+        <item itemvalue="Application.MyQuickUnion" />
+        <item itemvalue="Application.WeightedQuickUnionPath" />
+        <item itemvalue="Application.QuickFind" />
       </list>
     </recent_temporary>
   </component>
@@ -96,45 +84,73 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613602699001">
+    <state width="1537" height="274" key="GridCell.Tab.-1.bottom" timestamp="1614285794718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613602699001" />
-    <state x="548" y="122" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1613600550462">
+    <state width="1537" height="274" key="GridCell.Tab.-1.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285794718" />
+    <state width="1537" height="274" key="GridCell.Tab.-1.center" timestamp="1614285794718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="548" y="122" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613600550462" />
-    <state x="527" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1613602392592">
+    <state width="1537" height="274" key="GridCell.Tab.-1.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285794718" />
+    <state width="1537" height="274" key="GridCell.Tab.-1.left" timestamp="1614285794718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="527" y="208" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613602392592" />
-    <state x="637" y="167" key="EnvironmentVariablesDialog" timestamp="1613602690353">
+    <state width="1537" height="274" key="GridCell.Tab.-1.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285794718" />
+    <state width="1537" height="274" key="GridCell.Tab.-1.right" timestamp="1614285794718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="637" y="167" key="EnvironmentVariablesDialog/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613602690353" />
-    <state x="501" y="159" key="FileChooserDialogImpl" timestamp="1613604253163">
+    <state width="1537" height="274" key="GridCell.Tab.-1.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285794718" />
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1614323024490">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="501" y="159" key="FileChooserDialogImpl/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604253163" />
-    <state width="1537" height="230" key="GridCell.Tab.0.bottom" timestamp="1613604707902">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
+    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1614323024490">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="230" key="GridCell.Tab.0.bottom/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
-    <state width="1537" height="230" key="GridCell.Tab.0.center" timestamp="1613604707902">
+    <state width="1537" height="221" key="GridCell.Tab.0.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
+    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1614323024487">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="230" key="GridCell.Tab.0.center/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
-    <state width="1537" height="230" key="GridCell.Tab.0.left" timestamp="1613604707902">
+    <state width="1537" height="221" key="GridCell.Tab.0.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024487" />
+    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1614323024490">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="230" key="GridCell.Tab.0.left/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
-    <state width="1537" height="230" key="GridCell.Tab.0.right" timestamp="1613604707902">
+    <state width="1537" height="221" key="GridCell.Tab.0.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
+    <state width="1537" height="274" key="GridCell.Tab.1.bottom" timestamp="1614285780361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1537" height="230" key="GridCell.Tab.0.right/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604707902" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1613604661370">
+    <state width="1537" height="274" key="GridCell.Tab.1.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285780361" />
+    <state width="1537" height="274" key="GridCell.Tab.1.center" timestamp="1614285780361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.834/-1920.-954.1920.1050/0.-1200.1920.1170/1920.-965.1920.1050@0.0.1536.834" timestamp="1613604661370" />
+    <state width="1537" height="274" key="GridCell.Tab.1.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285780361" />
+    <state width="1537" height="274" key="GridCell.Tab.1.left" timestamp="1614285780361">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="274" key="GridCell.Tab.1.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285780361" />
+    <state width="1537" height="274" key="GridCell.Tab.1.right" timestamp="1614285780361">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1537" height="274" key="GridCell.Tab.1.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285780361" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614351353236">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614351353236" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/MyQuickUnion.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/WeightedQuickUnionPath.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

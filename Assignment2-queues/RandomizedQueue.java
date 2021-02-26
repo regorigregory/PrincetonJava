@@ -9,16 +9,13 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
     private static final String ILLEGAL_ARG_ERR_MSG =
             "You did not provide a value! Please specify something other than 'null'.";
 
-    public int size = 0;
+    private int size = 0;
     private Item[] elements;
 
     public RandomizedQueue() {
-        elements = (Item[]) new Object[4];
+        elements = (Item[]) new Object[1];
     }
 
-    public RandomizedQueue(int n) {
-        elements = (Item[]) new Object[n];
-    }
 
     // is the randomized queue empty?
     public boolean isEmpty() {
@@ -77,12 +74,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return StdRandom.uniform(size);
     }
 
-    public void fillGap(int indexToBeRemoved) {
-        while (elements[indexToBeRemoved] != null) {
-            elements[indexToBeRemoved] = elements[++indexToBeRemoved];
-        }
-    }
-
     // return a random item (but do not remove it)
     public Item sample() {
         if (size == 0) {
@@ -113,6 +104,9 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         }
 
         public Item next() {
+            if (size == 0) {
+                throw new NoSuchElementException(RandomizedQueue.NO_SUCH_ELEMENT_ERR_MSG);
+            }
             return tempQue.dequeue();
 
         }
@@ -124,9 +118,8 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         for (Integer i : items) {
             rq.enqueue(i);
         }
-        Iterator<Integer> it = rq.iterator();
-        while (it.hasNext()) {
-            System.out.println(it.next());
+        for (Integer integer : rq) {
+            System.out.println(integer);
         }
         System.out.println(rq.size());
         System.out.println(rq.dequeue());

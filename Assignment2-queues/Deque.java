@@ -8,7 +8,7 @@ import java.util.Iterator;
 import java.util.NoSuchElementException;
 
 public class Deque<Item> implements Iterable<Item> {
-    public static class Node<Item> {
+    private class Node<Item> {
         private Item data;
         private Node<Item> next;
         private Node<Item> previous;
@@ -82,9 +82,11 @@ public class Deque<Item> implements Iterable<Item> {
         size--;
         Node<Item> temp = head;
         head = head.next;
+
         if (head != null) {
             head.previous = null;
-            if (size() == 1) {
+            if (size == 1) {
+                tail.previous = null;
                 head = tail;
             }
         }
@@ -102,10 +104,11 @@ public class Deque<Item> implements Iterable<Item> {
         size--;
 
         Node<Item> temp = tail;
-        if (tail.previous != null) {
-            tail = tail.previous;
+        tail = tail.previous;
+        if (tail != null) {
             tail.next = null;
             if (size() == 1) {
+                head.next = null;
                 head = tail;
             }
         }
@@ -122,7 +125,12 @@ public class Deque<Item> implements Iterable<Item> {
     }
 
     private class DequeIterator implements Iterator<Item> {
-        private Node<Item> current = head;
+        private Node<Item> current;
+
+        DequeIterator() {
+            super();
+            current = head;
+        }
 
         public boolean hasNext() {
             return current != null;
@@ -132,10 +140,9 @@ public class Deque<Item> implements Iterable<Item> {
             if (current == null) {
                 throw new NoSuchElementException();
             }
-
-            Item item = current.data;
+            Node<Item> temp = current;
             current = current.next;
-            return item;
+            return temp.data;
         }
 
         public void remove() {
@@ -146,35 +153,37 @@ public class Deque<Item> implements Iterable<Item> {
     // unit testing (required)
     public static void main(String[] args) {
         System.out.println("Hello world");
-        Integer[] intArray = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+        Integer[] intArray = { 1, 2 };
         Deque<Integer> d = new Deque<Integer>();
 
         for (Integer i : intArray) {
             d.addLast(i);
         }
+        d.addFirst(600);
         System.out.println(d.size());
         System.out.println("***********************************");
 
-        //Iterator<Integer> it = d.iterator();
 
         d.removeFirst();
-        d.removeFirst();
-        d.removeLast();
         d.removeLast();
         d.addFirst(50);
         d.addLast(100);
 
         System.out.println(d.size());
         System.out.println("***********************************");
-        //it = d.iterator();
 
         System.out.println("***********************************");
-        for (int i = 0; i < 8; i++) {
+        int lim = d.size();
+        for (int i = 0; i < lim; i++) {
             d.removeLast();
-            System.out.println(d.size());
         }
+        System.out.println("***********************************");
+        Iterator<Integer> it = d.iterator();
 
-        System.out.println(d.head);
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
+        it.next();
 
 
     }

@@ -26,12 +26,6 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="23" />
-    <option name="width" value="938" />
-    <option name="height" value="765" />
-  </component>
   <component name="ProjectId" id="1onk1BXeZxatnIiA33f5hIVqLj6" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -92,38 +86,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="484" y="38" key="#RandomizedQueue/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613934939958" />
-    <state width="1537" height="274" key="GridCell.Tab.0.bottom" timestamp="1613940989656">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1614073651883">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.0.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.0.center" timestamp="1613940989656">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614073651883" />
+    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1614073651883">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.0.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.0.left" timestamp="1613940989656">
+    <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614073651883" />
+    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1614073651883">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.0.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.0.right" timestamp="1613940989656">
+    <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614073651883" />
+    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1614073651883">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.0.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.1.bottom" timestamp="1613940989656">
+    <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614073651883" />
+    <state width="1537" height="274" key="GridCell.Tab.1.bottom" timestamp="1614070003933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.1.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.1.center" timestamp="1613940989656">
+    <state width="1537" height="274" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614070003933" />
+    <state width="1537" height="274" key="GridCell.Tab.1.center" timestamp="1614070003933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.1.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.1.left" timestamp="1613940989656">
+    <state width="1537" height="274" key="GridCell.Tab.1.center/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614070003933" />
+    <state width="1537" height="274" key="GridCell.Tab.1.left" timestamp="1614070003933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.1.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
-    <state width="1537" height="274" key="GridCell.Tab.1.right" timestamp="1613940989656">
+    <state width="1537" height="274" key="GridCell.Tab.1.left/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614070003933" />
+    <state width="1537" height="274" key="GridCell.Tab.1.right" timestamp="1614070003933">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.1.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1613940989656" />
+    <state width="1537" height="274" key="GridCell.Tab.1.right/0.0.1536.834/1920.-965.1920.1050/-1920.-954.1858.1080/0.-1200.1920.1170@0.0.1536.834" timestamp="1614070003933" />
     <state x="277" y="62" key="SettingsEditor" timestamp="1613939222588">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -137,7 +139,17 @@
           <line>17</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Deque.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo typeName="Deque$Node" fieldName="next" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
