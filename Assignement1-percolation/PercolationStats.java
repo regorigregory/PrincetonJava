@@ -1,3 +1,4 @@
+import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 import edu.princeton.cs.algs4.StdStats;
 
@@ -9,50 +10,19 @@ public class PercolationStats {
     private double[] results;
     private int n;
 
-    private class RandomPopper {
-        private int currentSize;
-        private int[] elements;
-
-
-        RandomPopper() {
-            elements = new int[n * n];
-            currentSize = n;
-            for (int i = 1; i <= n * n; i++) {
-                elements[i] = i;
-            }
-
-        }
-
-        int[] reverseToCoordinate(int popIndex) {
-            int col = popIndex % n;
-            int row = (popIndex - col) / n;
-            return new int[] { row, col };
-        }
-
-        int[] popRandom() {
-            int randInt = StdRandom.uniform(currentSize);
-            int temp = elements[randInt];
-            elements[randInt] = elements[--currentSize];
-            return reverseToCoordinate(temp);
-        }
-    }
-
 
     // perform independent trials on an n-by-n grid
     public PercolationStats(int n, int trials) {
+        if (n <= 0 || trials <= 0) throw new IllegalArgumentException();
         results = new double[trials];
         int[] coords;
-        RandomPopper r = new RandomPopper();
-
         for (int i = 0; i < trials; i++) {
             Percolation p = new Percolation(n);
 
             while (!p.percolates()) {
-                coords = r.popRandom();
-                //coords = new int[] { indexToPop % n };
-                //do {
-                //    coords = new int[] { StdRandom.uniform(1, n + 1), StdRandom.uniform(1, n + 1) };
-                //} while (p.isOpen(coords[0], coords[1]));
+                do {
+                    coords = new int[] { StdRandom.uniform(1, n + 1), StdRandom.uniform(1, n + 1) };
+                } while (p.isOpen(coords[0], coords[1]));
                 p.open(coords[0], coords[1]);
             }
             results[i] = (double) p.numberOfOpenSites() / (n * n);
@@ -85,7 +55,16 @@ public class PercolationStats {
 
     // test client (see below)
     public static void main(String[] args) {
-        throw new UnsupportedOperationException("To be implemented...");
+        if (args != null && args.length == 2) {
+            int nSites = Integer.parseInt(args[0]);
+            int nTrials = Integer.parseInt(args[1]);
+            PercolationStats pStats = new PercolationStats(nSites, nTrials);
+            StdOut.printf("mean\t\t\t= %f%n", pStats.mean());
+            StdOut.printf("stddev\t\t\t= %f%n", pStats.stddev());
+            StdOut.printf("95%% confidence interval\t= [%f, %f]%n", pStats.confidenceLo(),
+                          pStats.confidenceHi());
+
+        }
     }
 
 }
