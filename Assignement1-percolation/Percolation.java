@@ -17,8 +17,9 @@ public class Percolation {
     private final int virtualTopSite;
     private final int virtualBottomSite;
 
-    private final WeightedQuickUnionUF filledUnion;  // only top
-    private final WeightedQuickUnionUF percolationUnion;
+    private final WeightedQuickUnionUF filledUnion;
+            // to avoid the backwash effect giving false positives for isFull
+    private final WeightedQuickUnionUF percolationUnion; // percolates?
 
     // creates n-by-n grid, with all sites initially blocked
     public Percolation(int n) {
@@ -33,23 +34,19 @@ public class Percolation {
 
 
         filledUnion =
-                new WeightedQuickUnionUF(n * n + 1);                  // n
+                new WeightedQuickUnionUF(n * n + 1);
         percolationUnion =
-                new WeightedQuickUnionUF(n * n + 2);                  // n
+                new WeightedQuickUnionUF(n * n + 2);
 
         // connect top and bottom row to the virtual top site
         // hence, if a site is connected to the top union, it is filled
         // if it is conneted to both, it percolates
-        for (int i = 0; i < n; i++) {                                    // n
+        for (int i = 0; i < n; i++) {
             filledUnion.union(i, virtualTopSite);
             percolationUnion.union(i, virtualTopSite);
-
-        }
-
-        // connect bottom row to the virtual bottom site
-        for (int i = 0; i < n; i++)                                      // n
             percolationUnion.union(n * (n - 1) + i,
                                    virtualBottomSite);
+        }
     }
 
 
