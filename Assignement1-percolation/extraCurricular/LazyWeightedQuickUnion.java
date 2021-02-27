@@ -1,4 +1,4 @@
-/* *****************************************************************************
+package extraCurricular;/* *****************************************************************************
  *  Name:              Alan Turing
  *  Coursera User ID:  123456
  *  Last modified:     1/1/2019
@@ -6,18 +6,21 @@
 
 import java.util.Scanner;
 
-public class QuickUnionPathCompression implements DynamicConnectivityObject {
+public class LazyWeightedQuickUnion implements DynamicConnectivityObject {
     private int[] id;
+    private int[] componentSizes;
     private int unionLoopCounter;
     private int findLoopCounter;
 
 
-    public QuickUnionPathCompression(int n) {
+    public LazyWeightedQuickUnion(int n) {
         id = new int[n];
+        componentSizes = new int[n];
         findLoopCounter = 0;
         unionLoopCounter = 0;
         for (int i = 0; i < n; i++) {
             id[i] = i;
+            componentSizes[i] = 1;
         }
     }
 
@@ -26,7 +29,6 @@ public class QuickUnionPathCompression implements DynamicConnectivityObject {
 
         while (id[q] != q) {
             findLoopCounter++;
-            id[q] = id[id[q]];
             q = id[q];
         }
         return q;
@@ -34,10 +36,20 @@ public class QuickUnionPathCompression implements DynamicConnectivityObject {
 
     public void union(int a, int b) {
         if (a == b) return;
+
         unionLoopCounter++;
         int aid = findRoot(a);
         int bid = findRoot(b);
-        id[aid] = bid;
+
+        if (componentSizes[aid] > componentSizes[bid]) {
+            componentSizes[aid] += componentSizes[bid];
+            id[bid] = aid;
+        }
+        else {
+            componentSizes[bid] += componentSizes[aid];
+            id[aid] = bid;
+
+        }
 
     }
 
@@ -70,7 +82,7 @@ public class QuickUnionPathCompression implements DynamicConnectivityObject {
         int N = sc.nextInt();
         int unionOperations = 0;
 
-        DynamicConnectivityObject dq = new QuickUnionPathCompression(N);
+        DynamicConnectivityObject dq = new LazyWeightedQuickUnion(N);
 
         System.out.println("Number of elements: " + N);
 
@@ -93,4 +105,5 @@ public class QuickUnionPathCompression implements DynamicConnectivityObject {
 
 
     }
+
 }

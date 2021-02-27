@@ -1,71 +1,54 @@
+package extraCurricular;/* *****************************************************************************
+ *  Name:              Alan Turing
+ *  Coursera User ID:  123456
+ *  Last modified:     1/1/2019
+ **************************************************************************** */
+
 import java.util.Scanner;
 
-public class MyQuickUnion implements DynamicConnectivityObject {
-    private class IDHolder {
-        private int id;
-
-        IDHolder(int id) {
-            this.id = id;
-        }
-
-        int getId() {
-            return this.id;
-        }
-
-        void setId(int newId) {
-            this.id = newId;
-        }
-
-        boolean equals(IDHolder other) {
-            return this.id == other.getId();
-
-        }
-    }
-
-    private IDHolder[] id;
+public class WeightedQuickUnionPath implements DynamicConnectivityObject {
+    private int[] id;
     private int[] componentSizes;
     private int unionLoopCounter;
     private int findLoopCounter;
 
-    public MyQuickUnion(int n) {
-        id = new IDHolder[n];
+
+    public WeightedQuickUnionPath(int n) {
+        id = new int[n];
         componentSizes = new int[n];
         findLoopCounter = 0;
         unionLoopCounter = 0;
         for (int i = 0; i < n; i++) {
-            id[i] = new IDHolder(i);
+            id[i] = i;
             componentSizes[i] = 1;
         }
     }
 
     private int findRoot(int q) {
         findLoopCounter++;
-        IDHolder newId = new IDHolder(q);
-        while (id[q].getId() != q) {
+
+        while (id[q] != q) {
             findLoopCounter++;
-            //int newQ = id[id[q].getId()].getId();
-            int newQ = id[q].getId();
-            id[q] = newId;
-            q = newQ;
+            id[q] = id[id[q]];
+            q = id[q];
         }
-        id[q] = newId;
-        newId.setId(q);
         return q;
     }
 
     public void union(int a, int b) {
-        unionLoopCounter++;
         if (a == b) return;
+
+        unionLoopCounter++;
         int aid = findRoot(a);
         int bid = findRoot(b);
 
         if (componentSizes[aid] > componentSizes[bid]) {
             componentSizes[aid] += componentSizes[bid];
-            id[bid] = id[aid];
+            id[bid] = aid;
         }
         else {
             componentSizes[bid] += componentSizes[aid];
-            id[aid] = id[bid];
+            id[aid] = bid;
 
         }
 
@@ -78,7 +61,7 @@ public class MyQuickUnion implements DynamicConnectivityObject {
 
     public int find(int a) {
         findLoopCounter++;
-        return id[a].getId();
+        return id[a];
     }
 
     public int count() {
@@ -96,34 +79,25 @@ public class MyQuickUnion implements DynamicConnectivityObject {
 
 
     public static void main(String[] args) throws java.io.FileNotFoundException {
-        Scanner sc = new Scanner(new java.io.File("snake101.txt"));
+        // Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(new java.io.File("tinyUF.txt"));
+
         int N = sc.nextInt();
         int unionOperations = 0;
 
-        DynamicConnectivityObject dq = new MyQuickUnion(N);
+        DynamicConnectivityObject dq = new WeightedQuickUnionPath(N);
 
         System.out.println("Number of elements: " + N);
-        int x = 0;
+
         while (sc.hasNextInt()) {
-            x++;
+            int p = sc.nextInt();
+            int q = sc.nextInt();
+            System.out.printf("Next union: %d, %d\n", p, q);
 
-            int p = sc.nextInt() - 1;
-            int q = sc.nextInt() - 1;
-            if (p == q) continue;
-            if (p == 2 && q == 1) {
-                boolean stopHere = true;
-                dq.union(p, q);
-                unionOperations++;
-            }
             if (!dq.isConnected(p, q)) {
-
-
                 dq.union(p, q);
                 unionOperations++;
-
-
             }
-            System.out.printf("Last union: %d, %d\n", p, q);
             dq.printStatus();
 
         }

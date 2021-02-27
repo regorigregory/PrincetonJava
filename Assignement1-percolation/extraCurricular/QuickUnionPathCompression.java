@@ -1,4 +1,4 @@
-/* *****************************************************************************
+package extraCurricular;/* *****************************************************************************
  *  Name:              Alan Turing
  *  Coursera User ID:  123456
  *  Last modified:     1/1/2019
@@ -6,21 +6,18 @@
 
 import java.util.Scanner;
 
-public class WeightedQuickUnionPath implements DynamicConnectivityObject {
+public class QuickUnionPathCompression implements DynamicConnectivityObject {
     private int[] id;
-    private int[] componentSizes;
     private int unionLoopCounter;
     private int findLoopCounter;
 
 
-    public WeightedQuickUnionPath(int n) {
+    public QuickUnionPathCompression(int n) {
         id = new int[n];
-        componentSizes = new int[n];
         findLoopCounter = 0;
         unionLoopCounter = 0;
         for (int i = 0; i < n; i++) {
             id[i] = i;
-            componentSizes[i] = 1;
         }
     }
 
@@ -37,20 +34,10 @@ public class WeightedQuickUnionPath implements DynamicConnectivityObject {
 
     public void union(int a, int b) {
         if (a == b) return;
-
         unionLoopCounter++;
         int aid = findRoot(a);
         int bid = findRoot(b);
-
-        if (componentSizes[aid] > componentSizes[bid]) {
-            componentSizes[aid] += componentSizes[bid];
-            id[bid] = aid;
-        }
-        else {
-            componentSizes[bid] += componentSizes[aid];
-            id[aid] = bid;
-
-        }
+        id[aid] = bid;
 
     }
 
@@ -78,26 +65,24 @@ public class WeightedQuickUnionPath implements DynamicConnectivityObject {
     }
 
 
-    public static void main(String[] args) throws java.io.FileNotFoundException {
-        // Scanner sc = new Scanner(System.in);
-        Scanner sc = new Scanner(new java.io.File("tinyUF.txt"));
-
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
         int unionOperations = 0;
 
-        DynamicConnectivityObject dq = new WeightedQuickUnionPath(N);
+        DynamicConnectivityObject dq = new QuickUnionPathCompression(N);
 
         System.out.println("Number of elements: " + N);
 
         while (sc.hasNextInt()) {
-            int p = sc.nextInt();
-            int q = sc.nextInt();
-            System.out.printf("Next union: %d, %d\n", p, q);
+            int p = sc.nextInt() - 1;
+            int q = sc.nextInt() - 1;
 
             if (!dq.isConnected(p, q)) {
                 dq.union(p, q);
                 unionOperations++;
             }
+            System.out.printf("Last union: %d, %d\n", p, q);
             dq.printStatus();
 
         }
@@ -108,5 +93,4 @@ public class WeightedQuickUnionPath implements DynamicConnectivityObject {
 
 
     }
-
 }

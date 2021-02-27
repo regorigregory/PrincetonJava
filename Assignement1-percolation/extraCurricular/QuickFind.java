@@ -1,3 +1,5 @@
+package extraCurricular;
+
 import java.util.Scanner;
 
 public class QuickFind implements DynamicConnectivityObject {

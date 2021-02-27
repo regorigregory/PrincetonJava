@@ -41,25 +41,30 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\courseraPrincetonJava\Assignement1-percolation\extraCurricular" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.MyQuickUnion">
     <configuration name="MyQuickUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyQuickUnion" />
+      <option name="MAIN_CLASS_NAME" value="extraCurricular.MyQuickUnion" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
     <configuration name="QuickFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickFind" />
+      <option name="MAIN_CLASS_NAME" value="extraCurricular.QuickFind" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
     <configuration name="QuickUnion" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="QuickUnion" />
+      <option name="MAIN_CLASS_NAME" value="extraCurricular.QuickUnion" />
       <module name="Algorithms, Part I" />
       <option name="PROGRAM_PARAMETERS" value="&lt;&lt; tinyUF.txt" />
       <method v="2" />
     </configuration>
     <configuration name="WeightedQuickUnionPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeightedQuickUnionPath" />
+      <option name="MAIN_CLASS_NAME" value="extraCurricular.WeightedQuickUnionPath" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -84,6 +89,10 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state x="536" y="219" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614390213295">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="536" y="219" key="#com.intellij.fileTypes.FileTypeChooser/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614390213295" />
     <state width="1537" height="274" key="GridCell.Tab.-1.bottom" timestamp="1614285794718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -132,21 +141,25 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.1.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285780361" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614351353236">
+    <state x="-917" y="-1003" width="1224" height="813" key="dock-window-1" timestamp="1614436309857">
+      <screen x="-1479" y="-1088" width="1920" height="1042" />
+    </state>
+    <state x="-917" y="-1003" width="1224" height="813" key="dock-window-1/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614436309857" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614394983104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614351353236" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614394983104" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/MyQuickUnion.java</url>
+          <url>file://$PROJECT_DIR$/extraCurricular/MyQuickUnion.java</url>
           <line>113</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/WeightedQuickUnionPath.java</url>
+          <url>file://$PROJECT_DIR$/extraCurricular/WeightedQuickUnionPath.java</url>
           <line>97</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
