@@ -18,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -46,14 +47,9 @@
       <recent name="C:\dev\courseraPrincetonJava\Assignement1-percolation\extraCurricular" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyQuickUnion">
-    <configuration name="MyQuickUnion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraCurricular.MyQuickUnion" />
-      <module name="Algorithms, Part I" />
-      <method v="2" />
-    </configuration>
-    <configuration name="QuickFind" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraCurricular.QuickFind" />
+  <component name="RunManager" selected="Application.LargestElementWQUP">
+    <configuration name="LargestElementWQUP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.LargestElementWQUP" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -63,8 +59,23 @@
       <option name="PROGRAM_PARAMETERS" value="&lt;&lt; tinyUF.txt" />
       <method v="2" />
     </configuration>
-    <configuration name="WeightedQuickUnionPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraCurricular.WeightedQuickUnionPath" />
+    <configuration name="SocialNetworkConnectivity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.SocialNetworkConnectivity" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="SuccessorWithDelete" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.SuccessorWithDelete" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WQUPplus (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WQUPplus" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WQUPplus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extraCurricular.WQUPplus" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -73,9 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyQuickUnion" />
-        <item itemvalue="Application.WeightedQuickUnionPath" />
-        <item itemvalue="Application.QuickFind" />
+        <item itemvalue="Application.LargestElementWQUP" />
+        <item itemvalue="Application.SuccessorWithDelete" />
+        <item itemvalue="Application.SocialNetworkConnectivity" />
+        <item itemvalue="Application.WQUPplus (1)" />
+        <item itemvalue="Application.WQUPplus" />
       </list>
     </recent_temporary>
   </component>
@@ -93,6 +106,18 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="536" y="219" key="#com.intellij.fileTypes.FileTypeChooser/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614390213295" />
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1614553849067">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614553849067" />
+    <state x="551" y="312" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1614550323125">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="551" y="312" width="433" height="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614550323125" />
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1614536066272">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="164" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1614536066272" />
     <state width="1537" height="274" key="GridCell.Tab.-1.bottom" timestamp="1614285794718">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -109,22 +134,30 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.-1.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285794718" />
-    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1614323024490">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1614555104224">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
-    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1614323024490">
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104224" />
+    <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
+    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1614555104223">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
-    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1614323024487">
+    <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104223" />
+    <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
+    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1614555104223">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024487" />
-    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1614323024490">
+    <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104223" />
+    <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
+    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1614555104223">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
+    <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104223" />
+    <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
     <state width="1537" height="274" key="GridCell.Tab.1.bottom" timestamp="1614285780361">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -145,10 +178,11 @@
       <screen x="-1479" y="-1088" width="1920" height="1042" />
     </state>
     <state x="-917" y="-1003" width="1224" height="813" key="dock-window-1/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614436309857" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614394983104">
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614525687236">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614394983104" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1614525687236" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -162,6 +196,11 @@
           <url>file://$PROJECT_DIR$/extraCurricular/WeightedQuickUnionPath.java</url>
           <line>97</line>
           <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/interviewQuestions/LargestElementWQUP.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
