@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -47,7 +47,12 @@
       <recent name="C:\dev\courseraPrincetonJava\Assignement1-percolation\extraCurricular" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LargestElementWQUP">
+  <component name="RunManager" selected="Application.EggDrops">
+    <configuration name="EggDrops" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.EggDrops" />
+      <module name="Algorithms, Part I" />
+      <method v="2" />
+    </configuration>
     <configuration name="LargestElementWQUP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="interviewQuestions.LargestElementWQUP" />
       <module name="Algorithms, Part I" />
@@ -69,13 +74,8 @@
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
-    <configuration name="WQUPplus (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WQUPplus" />
-      <module name="Algorithms, Part I" />
-      <method v="2" />
-    </configuration>
-    <configuration name="WQUPplus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extraCurricular.WQUPplus" />
+    <configuration name="ThreeSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interviewQuestions.ThreeSum" />
       <module name="Algorithms, Part I" />
       <method v="2" />
     </configuration>
@@ -84,11 +84,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EggDrops" />
+        <item itemvalue="Application.ThreeSum" />
         <item itemvalue="Application.LargestElementWQUP" />
         <item itemvalue="Application.SuccessorWithDelete" />
         <item itemvalue="Application.SocialNetworkConnectivity" />
-        <item itemvalue="Application.WQUPplus (1)" />
-        <item itemvalue="Application.WQUPplus" />
       </list>
     </recent_temporary>
   </component>
@@ -134,29 +134,37 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="274" key="GridCell.Tab.-1.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614285794718" />
-    <state width="1537" height="221" key="GridCell.Tab.0.bottom" timestamp="1614555104224">
+    <state width="1537" height="220" key="GridCell.Tab.0.bottom" timestamp="1615000420392">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
-    <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104224" />
+    <state width="1921" height="331" key="GridCell.Tab.0.bottom/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@441.-1200.1920.1170" timestamp="1614721101243" />
+    <state width="1537" height="220" key="GridCell.Tab.0.bottom/0.0.1536.834/-1479.-1088.1858.1080/441.-1200.1920.1170@0.0.1536.834" timestamp="1615000420392" />
+    <state width="1537" height="274" key="GridCell.Tab.0.bottom/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555795642" />
     <state width="1537" height="221" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
-    <state width="1537" height="221" key="GridCell.Tab.0.center" timestamp="1614555104223">
+    <state width="1537" height="220" key="GridCell.Tab.0.center" timestamp="1615000420392">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
-    <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104223" />
+    <state width="1921" height="331" key="GridCell.Tab.0.center/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@441.-1200.1920.1170" timestamp="1614721101243" />
+    <state width="1537" height="220" key="GridCell.Tab.0.center/0.0.1536.834/-1479.-1088.1858.1080/441.-1200.1920.1170@0.0.1536.834" timestamp="1615000420392" />
+    <state width="1537" height="274" key="GridCell.Tab.0.center/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555795642" />
     <state width="1537" height="221" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
-    <state width="1537" height="221" key="GridCell.Tab.0.left" timestamp="1614555104223">
+    <state width="1537" height="220" key="GridCell.Tab.0.left" timestamp="1615000420392">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024487" />
-    <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104223" />
+    <state width="1921" height="331" key="GridCell.Tab.0.left/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@441.-1200.1920.1170" timestamp="1614721101243" />
+    <state width="1537" height="220" key="GridCell.Tab.0.left/0.0.1536.834/-1479.-1088.1858.1080/441.-1200.1920.1170@0.0.1536.834" timestamp="1615000420392" />
+    <state width="1537" height="274" key="GridCell.Tab.0.left/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555795642" />
     <state width="1537" height="221" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
-    <state width="1537" height="221" key="GridCell.Tab.0.right" timestamp="1614555104223">
+    <state width="1537" height="220" key="GridCell.Tab.0.right" timestamp="1615000420392">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state width="1537" height="221" key="GridCell.Tab.0.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614323024490" />
-    <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555104223" />
+    <state width="1921" height="331" key="GridCell.Tab.0.right/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@441.-1200.1920.1170" timestamp="1614721101243" />
+    <state width="1537" height="220" key="GridCell.Tab.0.right/0.0.1536.834/-1479.-1088.1858.1080/441.-1200.1920.1170@0.0.1536.834" timestamp="1615000420392" />
+    <state width="1537" height="274" key="GridCell.Tab.0.right/0.0.1536.834/441.-1200.1920.1170/-1479.-1088.1858.1080@0.0.1536.834" timestamp="1614555795642" />
     <state width="1537" height="221" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1614530237196" />
     <state width="1537" height="274" key="GridCell.Tab.1.bottom" timestamp="1614285780361">
       <screen x="0" y="0" width="1536" height="834" />
@@ -178,10 +186,11 @@
       <screen x="-1479" y="-1088" width="1920" height="1042" />
     </state>
     <state x="-917" y="-1003" width="1224" height="813" key="dock-window-1/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614436309857" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1614525687236">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="980" y="-983" width="840" height="952" key="search.everywhere.popup" timestamp="1614712928216">
+      <screen x="441" y="-1200" width="1920" height="1170" />
     </state>
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@0.0.1536.834" timestamp="1614394983104" />
+    <state x="980" y="-983" width="840" height="952" key="search.everywhere.popup/-1479.-1088.1920.1042/441.-1200.1920.1170/0.0.1536.834@441.-1200.1920.1170" timestamp="1614712928216" />
     <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1614525687236" />
   </component>
   <component name="XDebuggerManager">
