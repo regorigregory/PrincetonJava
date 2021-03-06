@@ -8,7 +8,6 @@ package interviewQuestions;
 
 public class StackWithMax<T extends Comparable> {
     T[] stack1, stack2;
-    T[] maxElements;
 
     int size;
 
@@ -31,6 +30,10 @@ public class StackWithMax<T extends Comparable> {
         stack1 = newStack1;
         stack2 = newStack2;
 
+    }
+
+    public T getMax() {
+        return this.stack2[this.size - 1];
     }
 
     public T peek() {
